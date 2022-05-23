@@ -15,3 +15,6 @@ cron "55 23 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main
 
 # 获取多账号京东Cookie
 http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://raw.githubusercontent.com/KingRan/KR/main/jdCookie.js, enable=false, tag=获取多账号京东Cookie
+
+#京东CK检测by-ccwav
+cron "30 2-22/2 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_CheckCK.js, tag:京东CK检测by-ccwav
