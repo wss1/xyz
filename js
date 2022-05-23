@@ -5,4 +5,4 @@
 hostname = me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
 
 # 获取多账号京东Cookie
-http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js, tag=获取多账号京东Cookie
+http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://github.com/KingRan/KR/blob/main/jdCookie.js, tag=获取多账号京东Cookie
