@@ -14,4 +14,4 @@ cron "10 7 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/
 cron "15 2,14 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js,tag=2022店铺签到
 
 # 获取多账号京东Cookie
-http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://raw.githubusercontent.com/KingRan/KR/main/jdCookie.js, enable=false, tag=获取多账号京东Cookie
+http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, enable=false, tag=获取多账号京东Cookie
