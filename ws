@@ -13,5 +13,5 @@ cron "10 7 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/
 #2022店铺签到
 cron "15 2,14 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_dpqd.js,tag=2022店铺签到
 
-#京东多合一签到
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到(by NobyDA, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/JD02.png
+#2022京东cookie
+http-request ^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?) tag=获取京东Cookie, requires-body=true, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
