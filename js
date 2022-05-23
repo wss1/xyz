@@ -56,7 +56,7 @@ cron "13 1,22,23 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR
 cron "10 * * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_dreamFactory.js,tag=京喜工厂
 
 # 获取多账号京东Cookie
-http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://raw.githubusercontent.com/KingRan/KR/main/JD_extra_cookie.js, tag=获取多账号京东Cookie
+http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://raw.githubusercontent.com/KingRan/KR/main/jdCookie.js, tag=获取多账号京东Cookie
 
 # 京东家庭号
 cron "1 12,23 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_family.js,tag=京东家庭号
