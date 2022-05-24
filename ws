@@ -5,8 +5,7 @@
 hostname = me-api.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com
 
 #2022热爱奇旅
-cron "33 0,6-23/2 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_19E.js,tag=2022热爱奇旅,JD_19E=true
-
+cron "33 0,6-23/2 * * *" script-path=https://raw.githubusercontent.com/wss1/xyz/main/jd2022618,tag=2022热爱奇旅
 #2022-618
 cron "10 7 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_618cj.js,tag=2022-618
 
